@@ -1,6 +1,33 @@
-.pallet {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-    display:inline-block;
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(141, 212, 172);
+}
+
+
+.color {
+  padding: 10px;
+  display: inline-block;
+  border-color: black;
+  border: 1px;
+  border-style: solid;
+}
+
+.color0 {
+  background-color: black;
+}
+
+.color1 {
+  background-color: blueviolet;
+}
+
+.color2 {
+  background-color: red;
+}
+
+.color3 {
+  background-color: royalblue;
 }
