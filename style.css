@@ -1,10 +1,16 @@
 * {
-  padding: 0px;
+  padding: 1px;
   margin: 0px;
 }
 
+.titleBlock {
+  text-align: center;
+}
+
 .color {
-  padding: 50px;
+  align-items: center;
+  width: 40px;
+  height: 40px;
   display: inline-block;
   border-color: black;
   border: 1px;
