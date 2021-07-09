@@ -30,6 +30,7 @@
   height: 40px;
   display: inline-block;
   border-color: black;
+  background-color: white;
   border: 1px;
   border-style: solid;
   box-sizing: border-box;

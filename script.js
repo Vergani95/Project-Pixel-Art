@@ -20,5 +20,4 @@ const table = document.querySelector("#pixel-board"); // Para o desenvolvimento 
     columm.className = "pixel";
     line.appendChild(columm);
   }
-
-  }
+}
