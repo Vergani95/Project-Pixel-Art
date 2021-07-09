@@ -3,21 +3,17 @@
   margin: 0px;
 }
 
-body {
-  background-color: rgb(141, 212, 172);
-}
-
-
 .color {
-  padding: 10px;
+  padding: 50px;
   display: inline-block;
   border-color: black;
   border: 1px;
   border-style: solid;
+  box-sizing: border-box;
 }
 
 .color0 {
-  background-color: black;
+  color: black;
 }
 
 .color1 {
