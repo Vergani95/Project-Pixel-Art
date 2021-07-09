@@ -5,10 +5,17 @@
 
 .titleBlock {
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.pallet{
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .color {
-  align-items: center;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -18,18 +25,3 @@
   box-sizing: border-box;
 }
 
-.color0 {
-  color: black;
-}
-
-.color1 {
-  background-color: blueviolet;
-}
-
-.color2 {
-  background-color: red;
-}
-
-.color3 {
-  background-color: royalblue;
-}
