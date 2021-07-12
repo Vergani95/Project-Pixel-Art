@@ -1,6 +1,6 @@
 * {
   padding: 1px;
-  margin: 0px;
+  margin: 0;
 }
 
 .titleBlock {
@@ -9,7 +9,7 @@
   padding-bottom: 20px;
 }
 
-.pallet{
+.pallet {
   width: 1300px;
   margin-left: auto;
   margin-right: auto;
