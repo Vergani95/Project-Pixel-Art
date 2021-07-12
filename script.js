@@ -21,6 +21,7 @@ for (let indexL = 0; indexL < 5; indexL += 1) { //para alterar o tamanho da tabe
 }
 
 // Seleciona cor
+colors[0].className = "color selected";
 for (let indexF = 0; indexF < colors.length; indexF += 1) {
   colors[indexF].addEventListener('click', () => {
     for (let indexI = 0; indexI < colors.length; indexI += 1) {
