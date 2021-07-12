@@ -21,3 +21,10 @@ const table = document.querySelector("#pixel-board"); // Para o desenvolvimento 
     line.appendChild(columm);
   }
 }
+
+const square = document.getElementsByClassName ("pixel");
+for (indexP = 0; indexP < square.length; indexP +=1) {
+  square[indexP].addEventListener('click', () => {
+    square[indexP].style.backgroundColor = document.querySelector('.selected').style.backgroundColor;
+  })
+}
