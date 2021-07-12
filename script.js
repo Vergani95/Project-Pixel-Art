@@ -22,6 +22,15 @@ const table = document.querySelector("#pixel-board"); // Para o desenvolvimento 
   }
 }
 
+for (let indexF = 0; indexF < colors.length; indexF +=1) {
+  colors[indexF].addEventListener('click', () => {
+    for (let indexI = 0; indexI < colors.length; indexI += 1) {
+      colors[indexI].className = "color";
+    }
+    colors[indexO].classname = "color selected";
+  })
+}
+
 const square = document.getElementsByClassName ("pixel");
 for (indexP = 0; indexP < square.length; indexP +=1) {
   square[indexP].addEventListener('click', () => {
