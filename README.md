@@ -1,14 +1,14 @@
-## Termos e acordos
+## Pixels Art
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+Neste repositório se encontra um dos meus primeiros projetos juntando teoria lógica e prática
 
 ---
 
 ## Boas vindas ao repositório do projeto Arte com Pixels!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+Esse projeto foi realizado quando ainda estava engatinhando na programação, ainda tinha certas dificuldades em assimilar certas coisas, mas ao final foi recompensador ver ele pronto e funcionando corretamente. 🚀
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto à partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+O objetivo desse projeto era criar uma grade
 
 ---
 
@@ -18,13 +18,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-  - [Data de Entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
-  - [Cypress](#cypress)
 - [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
@@ -42,11 +36,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.](#10---faça-o-quadro-de-pixels-ter-seu-tamanho-definido-pelo-usuário)
     - [11 - Limite o tamanho do mínimo e máximo do board.](#11---limite-o-tamanho-do-mínimo-e-máximo-do-board)
     - [12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.](#12---faça-com-que-as-cores-da-paleta-sejam-geradas-aleatoriamente-ao-carregar-a-página)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Compartilhe no LinkedIn](#compartilhe-no-linkedin)
-- [Avisos Finais](#avisos-finais)
-
 ---
 
 ## Habilidades
@@ -66,14 +55,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ## Desenvolvimento
 
 - Implemente uma paleta de cores usando `javascript`, `css` e `html`.
-
----
-
-## Data de Entrega
-
-- Serão `3` dias de projeto.
-
-- Data de entrega para avaliação final do projeto: `19/07/2021 - 14:00h`.
 
 ---
 
@@ -146,25 +127,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-## Como desenvolver
-
-- Este Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
-
-**⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️**
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure o time de instrução.
-
----
-
 ### Dicas
-
-- Você pode pesquisar sobre a propriedade `display` do CSS, [especificamente sobre as opções `table`, `table-row` e `table-cell`](https://stackoverflow.com/questions/29229523/how-and-why-to-use-display-table-cell-css) para te ajudar a posicionar os elementos;
-
-- [Que tal](https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/) usar um _loop_ para adicionar o mesmo evento em vários elementos? [Ou então](https://gomakethings.com/attaching-multiple-elements-to-a-single-event-listener-in-vanilla-js/) a técnica de _event bubbling_ combinada com `classList`?
-
-- Se precisar consultar os valores do _CSS_ de um elemento a partir do _JavaScript_, [dê uma olhada aqui](https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp).
-
-- Para alterar alguma propriedade do _CSS_ de um elemento através do _JavaScript_, dê uma olhada no [atributo `style`](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp) do elemento.
 
 - Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/pixels-art`.
 
@@ -180,13 +143,6 @@ e de fácil manutenção! Para rodá-los localmente no projeto, execute os coman
 npm run lint
 npm run lint:styles
 ```
-
-Quando é executado o comando `npm run lint:styles`, ele irá avaliar se os arquivos com a extensão `CSS` estão com o padrão correto.
-
-Quando é executado o comando `npm run lint`, ele irá avaliar se os arquivos com a extensão `JS` e `JSX` estão com o padrão correto.
-
-⚠ **NESTE PROJETO O STYLELINT e ESLINT NÃO SERÃO AVALIADOS. VOCÊ PODE RODAR OS TESTES LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR!** ⚠
-
 ---
 
 ### Cypress
@@ -211,31 +167,10 @@ npm run cypress:open
 ```bash
 npx cypress open
 ```
-
-Após executar um dos dois comandos acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (project.spec.js), ou para executar todos os testes clique em Run all specs
-
-Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) vídeo 😉🎙
-
-**Para rodar o cypress é preciso ter rodado o comando npm install anteriormente.**
-
----
-
-## Requisitos do projeto
-
-**💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar todas as pessoas!**
-
-![exemplo de arte com pixels](./art-with-pixels.gif)
-
-**⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_  e _classes_ que alguns elementos de seu projeto devem possuir**. Não troque `ids` por `classes` ou vice-versa ⚠️**
-
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
 ---
 
 ## 👀 Observações importantes:
   
-* Lembrem-se que como pessoas desenvolvedoras devemos fazer pesquisas e garimpar resultados para auxiliar no entendimento do assunto. Assim, para solucionar os requisitos do projeto é inevitável e estimulado que pesquisas sejam feitas nas mais variadas fontes (course, vídeos do course, google, youtube, etc) sempre tomando cuidado para utilizar fontes "confiáveis" nas pesquisas da Internet, como por exemplo:
-
   * [Javascript.com](http://javascript.com/)
 
   * [W3Schools](https://www.w3schools.com/js/default.asp)
@@ -243,32 +178,6 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
   * [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
   * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
-
-* Os requisitos do seu projeto são avaliados automaticamente, sendo utilizada a resolução de tela de `1366 x 768` (1366 pixels de largura por 768 pixels de altura).
-
-  * **⚠️ Logo, recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configuração da resolução.** ⚠️
-
-* Caso for utilizar imagens nesse projeto, atente-se para o tamanho delas. **Não utilize imagens com um tamanho maior que _500Kb_.**
-
-  * **⚠️ Utilize uma ferramenta [como esta](https://picresize.com/pt) para redimensionar as imagens. ⚠️**
-
-  * Caso a avaliação falhe com alguma mensagem de erro parecida com `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304`, provavelmente as imagens que você está utilizando estão muito grandes. Tente redimensioná-las para um tamanho menor.
-
-* Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**.
-
-  * Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
-
-  * Na página que se abrirá, procure pela linha _**"Cypress evaluator step"**_ e clique nela;
-
-  * Analise os resultados a partir da mensagem _**"(Run Starting)"**_;
-
-  * Caso tenha dúvidas, consulte [este vídeo](https://vimeo.com/420861252) ou procure o time de instrução.
-
-* Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**.
-
-  * Em outras palavras, você pode fazer mais do que for pedido, mas nunca menos.
-
-* Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
 
 ---
 
@@ -400,111 +309,5 @@ Neste projeto, você implementará um editor de arte com pixels.
 
 - Verifica se ao clicar no botão, o quadro de pixels é totalmente preenchido de branco
 
-## Requisitos Bônus:
-
-### 10 - Faça o quadro de pixels ter seu tamanho definido pela pessoa usuária.
-
-- Crie um input e um botão que permitam definir um quadro de pixels com tamanho entre 5 e 50. Ao clicar no botão, deve ser gerado um quadro de **N** pixels de largura e **N** pixels de altura, onde **N** é o número inserido no input;
-
- - Ou seja, se o valor passado para o input for 7, ao clicar no botão, vai ser gerado um quadro de 49 pixels (7 pixels de largura x 7 pixels de altura);
-
-- O input deve ter o `id` denominado `board-size` e o botão deve ter o `id` denominado `generate-board`;
-
-- O input só deve aceitar número maiores que zero. Essa restrição **deve** ser feita usando os atributos do elemento `input`;
-
-- O botão deve conter o texto "VQV";
-
-- O input deve estar posicionado entre a paleta de cores e o quadro de pixels;
-
-- O botão deve estar posicionado ao lado do input;
-
-- Se nenhum valor for colocado no input ao clicar no botão, mostre um `alert` com o texto: "Board inválido!";
-
-- O novo quadro deve ter todos os pixels preenchidos com a cor branca.
-
-**O que será verificado:**
-
-- Verifica se existe um input com o id `board-size`
-
-- Verifica se existe um botão com o id `generate-board`
-
-- Verifica se o input só aceita número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento `input`
-
-- Verifica se o botão contém o texto \'VQV\'
-
-- Verifica se o input está posicionado entre a paleta de cores e o quadro de pixels
-
-- Verifica se o botão está posicionado ao lado do input
-
-- Verifica se nenhum valor for colocado no input ao clicar no botão, um `alert` é exibido com o texto: \'Board inválido!\'
-
-- Verifica se ao clicar no botão com um valor preenchido, o tamanho do board muda.
-
-- Verifica se o novo quadro tem todos os pixels preenchidos com a cor branca
-
-### 11 - Limite o tamanho mínimo e máximo do board.
-
-- Caso o valor digitado no input `board-size` fuja do intervalo de 5 a 50, faça:
-
-  - Valor menor que 5, considerar 5 como padrão;
-
-  - Valor maior que 50, considerar 50 como padrão.
-
-**O que será verificado:**
-
-- Verifica se a altura máxima do board é 50
-
-- Verifica se a altura do board é 5 quando um valor menor é colocado no input
-
-- Verifica se a altura do board é 50 quando um valor maior é colocado no input
-
-### 12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.
-
-- A cor preta ainda precisa estar presente e deve ser a primeira na sua paleta de cores.
-
-**O que será verificado:**
-
-- Verifica se as cores geradas na paleta são diferentes a cada carregamento da página
-
-- Verifica se a cor preta ainda está presente e é a primeira na sua paleta de cores
-
 ---
 
-## Depois de terminar o desenvolvimento
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-014-a`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo **Lint** estão resolvidas! ⚠
-
----
-
-## Revisando um pull request
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests das outras pessoas estudantes. Atenção às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
-
----
-
-## Compartilhe no LinkedIn
-
-Você sabia que o **LinkedIn** é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso?
-
-Compartilhe esse projeto no seu **LinkedIn**, marque o perfil da Trybe (**@trybe**) e mostre para a sua rede toda a sua evolução.
-
----
-
-## Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
